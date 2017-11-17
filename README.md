@@ -6,7 +6,9 @@
 #### 使用
 
 <pre><code>
-window.Pinyin.t('华鑫加油') => 'hua xin jia you';
-window.Pinyin.t('华鑫加油', '-') => 'hua-xin-jia-you';
-window.Pinyin.t('华鑫加油huaxinjiayou', '-') => 'hua-xin-jia-you-huaxinjiayou';
+import w2p from 'w2p'
+
+w2p('汉字') //'han zi'
+w2p('汉字', '') //'hanzi'
+w2p('汉字', '-') //'han-zi'
 </code></pre>
