@@ -6,8 +6,6 @@
 #### 使用
 
 <pre><code>
-import w2p from 'w2p'
-
 w2p('汉字') //'han zi'
 w2p('汉字', '') //'hanzi'
 w2p('汉字', '-') //'han-zi'
